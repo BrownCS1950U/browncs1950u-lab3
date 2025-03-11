@@ -16,7 +16,7 @@ To run, make sure you are inside `build` directory, and then
 
 ## Todos
 
-Go to `src/collision/collision.cpp`, and finish your collision algorithm there. Implement `updateCylinderCylinderCollisio()` and `updateEllipsoidTriangleCollision()` if you decide to do ellipsoid-triangle, or `updateGJKCollision()` for GJK-EPA. Collider definitions are available in `collider.h`.
+Go to `src/collision/collision.cpp`, and finish your collision algorithm there. Implement `updateCylinderCylinderCollisio()` and `updateEllipsoidTriangleCollision()` if you decide to do ellipsoid-triangle, or `updateGJKCollision()` for GJK-EPA. Collider definitions are available in `src/collision/collider.h`.
 
 The scene contains a slope, 2 cylinders, and 1 ellipsoid. The program will show the MTVs for the objects once the array is filled in with data. So please make sure you update `m_mtvs` with corresponding collider object ID:
 
